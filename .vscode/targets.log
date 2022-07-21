@@ -1,0 +1,649 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Wed Jul 20 19:59:20 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/chase/OneDrive/Documents/CS425/MP2/mp2
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_ 
+NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from `makefile', line 10)
+CFLAGS = -Wall -Wno-format-security -g -std=c++11
+# environment
+ONEDRIVE = C:\Users\chase\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+TMP = C:\Users\chase\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\chase\AppData\Local\Programs\Microsoft VS Code
+# environment
+PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\GnuWin32\bin;C:\Dev-Cpp\bin;C:\Program Files\Git\cmd;C:\Java\jdk1.8.0_261\bin;C:\Program Files\PuTTY\;C:\Program Files\Amazon\AWSCLIV2\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\LLVM\bin;C:\Users\chase\.local\share\solana\install\active_release\bin;C:\Ruby30-x64\bin;C:\Users\chase\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\chase\AppData\Local\Programs\Python\Python39\;C:\Users\chase\AppData\Local\Microsoft\WindowsApps;C:\Users\chase\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chase\AppData\Local\GitHubDesktop\bin;C:\GnuWin32\bin;C:\Dev-Cpp\bin;C:\Java\jdk1.8.0_261\bin;C:\Users\chase\AppData\Local\Microsoft\WindowsApps;C:\Users\chase\OneDrive\Desktop\mongodb-win32-x86_64-windows-4.4.5\bin;C:\Program Files\Graphviz\bin;C:\Users\chase\AppData\Roaming\npm;C:\Spark\spark-3.0.3-bin-hadoop2.7\\bin;C:\Spark\spark-3.0.3-bin-hadoop2.7\hadoop\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\GnuWin32\bin;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\chase
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9348_WTFMDNITVIKVLHMF
+# environment
+COMPUTERNAME = DESKTOP-PNI08H1
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\Syst 
+em32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+HADOOP_HOME = C:\Spark\spark-3.0.3-bin-hadoop2.7\hadoop
+# environment
+USERNAME = chase
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\chase\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-PNI08H1
+# environment
+ONEDRIVECONSUMER = C:\Users\chase\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-PNI08H1
+# environment
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+JAVA_HOME = C:\Java\jdk1.8.0_261
+# default
+MAKE_VERSION := 3.81
+# makefile
+ 
+.DEFAULT_GOAL := all
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\chase\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\5db17ea8058f6c2022bc7d50b512e7cd-1.69.2-main-sock
+# environment
+SPARK_HOME = C:\Spark\spark-3.0.3-bin-hadoop2.7\
+# environment
+HOMEPATH = \Users\chase
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# en 
+vironment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\chase\AppData\Roaming
+# environment
+__COMPAT_LAYER = DetectorsAppHealth
+# environment
+TEMP = C:\Users\chase\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = C 
+onsole
+# environment
+PROCESSOR_REVISION = 8e0c
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 9348
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-PNI08H1
+# variable set hash-table stats:
+# Load=90/1024=9%, Rehash=0, Collisions=9/113=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler (key C:/Program Files (x86)/Co 
+mmon Files/Intel/Shared Libraries/redist/intel64/compiler, mtime 1634519797): 17 files, no impossibilities.
+# C:\Program Files\LLVM\bin (key C:/Program Files/LLVM/bin, mtime 1657760125): 120 files, no impossibilities.
+# C:\Spark\spark-3.0.3-bin-hadoop2.7\\bin (key C:/Spark/spark-3.0.3-bin-hadoop2.7/bin, mtime 1623907659): 29 files, no impossibilities.
+# C:\Program Files (x86)\Razer\ChromaBroadcast\bin: could not be stat'd.
+# C:\Users\chase\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/chase/App 
+Data/Local/Programs/Microsoft VS Code/bin, mtime 1658257721): 4 files, no impossibilities.
+# C:\Program Files (x86)\Razer Chroma SDK\bin: could not be stat'd.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1617326285): 30 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1657949674): 153 files, no impossibilities.
+# . (key c:/Users/chase/OneDrive/Documents/CS425/MP2/mp2, mtime 1658372358): 36 files, no impossibil 
+ities.
+# C:\Users\chase\AppData\Roaming\npm (key C:/Users/chase/AppData/Roaming/npm, mtime 1652831360): 42 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1586959355): 10 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1634095547): 11 files, no impossibilities.
+# C:\GnuWin32\bin (key C:/GnuWin32/bin, mtime 1657759193): 3 files, no impossibilities.
+# C:\Users\chase\AppData\Local\Microsoft\WindowsApps (key C:/Users/chase/AppData/Local/Microsoft/WindowsApps, mtime 1658136571): 35 files, no impossibilities.
+# C:\Spark\spark-3.0.3-bin-hadoop2.7\hadoop\bin (key C:/Spark/spark-3.0.3-bin-hadoop2.7/hadoop/bin, mtime 1649890219): 3 files, no impossibilities.
+# C:\Users\chase\AppData\Local\Programs\Python\Python39\ (key C:/Users/chase/AppData/Local/Programs/Python/Python39/, mtime 1603162736): 20 files, no impossibilities.
+# C:\Users\chase\AppData\Local\GitHubDesktop\bin (key  
+C:/Users/chase/AppData/Local/GitHubDesktop/bin, mtime 1591202905): 4 files, no impossibilities.
+# C:\Program Files (x86)\VMware\VMware Workstation\bin\ (key C:/Program Files (x86)/VMware/VMware Workstation/bin/, mtime 1605637815): 3 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\Program Files\PuTTY\ (key C:/Program Files/PuTTY/, mtime 1603147889): 12 files, no impossibilities.
+# C:\Users\chase\AppData\Local\Programs\Python\Python39\Scripts\ (key C:/Users/chase/AppData/L 
+ocal/Programs/Python/Python39/Scripts/, mtime 1649627403): 58 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1657949673): 131 files, no impossibilities.
+# C:\Dev-Cpp\bin: could not be stat'd.
+# C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin: could not be stat'd.
+# C:\Users\chase\OneDrive\Desktop\mongodb-win32-x86_64-windows-4.4.5\bin (key C:/Users/chase/OneDrive/Desktop/mongodb-win32-x86_64-windows-4.4.5/bin, mtime 1618185051): 4 files, no impossibilities.
+# C:\Prog 
+ram Files\Razer\ChromaBroadcast\bin: could not be stat'd.
+# C:\Program Files\MySQL\MySQL Utilities 1.6\ (key C:/Program Files/MySQL/MySQL Utilities 1.6/, mtime 1649201275): 42 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1653184751): 8 files, no impossibilities.
+# C:\Program Files\Razer Chroma SDK\bin: could not be stat'd.
+# C:\Ruby30-x64\bin (key C:/Ruby30-x64/bin, mtime 1628098681): 32 files, no impossibilities.
+# C:\Program Files\Amazon\AWSCLIV2\ (key C:/Prog 
+ram Files/Amazon/AWSCLIV2/, mtime 1616303987): 36 files, no impossibilities.
+# C:\Users\chase\.local\share\solana\install\active_release\bin (key C:/Users/chase/.local/share/solana/install/active_release/bin, mtime 1634094569): 14 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1594688619): 8 files, no impossibilities.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1657997864): 2945 files, no impossibilities.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Pro 
+gram Files (x86)/GnuWin32/bin, mtime 1658275881): 5 files, no impossibilities.
+# C:\Java\jdk1.8.0_261\bin (key C:/Java/jdk1.8.0_261/bin, mtime 1599163775): 54 files, no impossibilities.
+# C:\Program Files\Graphviz\bin (key C:/Program Files/Graphviz/bin, mtime 1627585552): 58 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1586959375): 5 files, no impossibilities.
+# C:\Windows\system32\config\systemprofile\AppData\ 
+Local\Microsoft\WindowsApps: could not be stat'd.
+
+# 3932 files, no impossibilities in 39 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+MP2Node.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+EmulNet.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-11-24 13:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collision 
+s=0/0=0%
+
+# Not a target:
+MP2Node.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+EmulNet.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ApplicationLite: EmulNet.o Application.o Log.o Params.o Member.o Trace.o MP2Node.o Node.o HashTable.o Entry.o Message.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been upda 
+ted.
+#  commands to execute (from `makefile', line 20):
+	g++ -o Application MP1Node.o EmulNet.o Application.o Log.o Params.o Member.o Trace.o MP2Node.o Node.o HashTable.o Entry.o Message.o ${CFLAGS}
+	
+
+all: Application
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+
+# Not a target:
+Trace.h:
+#  Implicit rule search has not been done 
+.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Trace.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Message.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Params.h:
+#  Impl 
+icit rule search has been done.
+#  Last modified 2020-11-24 13:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Entry.o: Entry.cpp Entry.h Message.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 53):
+	g++ -c Entry.cpp ${CFLAGS}
+	
+
+MP1Node.o: MP1Node.cpp MP1Node.h Log.h Params.h Member.h EmulNet.h Queue.h
+#  Implicit 
+ rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := MP1Node.o
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := MP1Node.cpp MP1Node.h Log.h Params.h Member.h EmulNet.h Queue.h
+# automatic
+# | := 
+# automatic
+# < := MP1Node.cpp
+# automatic
+# ^ := MP1Node.cpp MP1Node.h Log.h Params.h Member.h EmulNet.h Queue.h
+# automatic
+# ? := MP1Node.cpp MP1Node.h Log.h Params.h Member.h EmulNet 
+.h Queue.h
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  commands to execute (from `makefile', line 23):
+	g++ -c MP1Node.cpp ${CFLAGS}
+	
+
+# Not a target:
+Application.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Message.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been 
+ done.
+#  Last modified 2020-11-24 13:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Params.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Member.o: Member.cpp Member.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 38):
+	g++ -c Mem 
+ber.cpp ${CFLAGS}
+	
+
+# Not a target:
+Application.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+HashTable.o: HashTable.cpp HashTable.h common.h Entry.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 50):
+	g++ -c HashTable.cpp ${CFLAGS}
+	
+
+# Not a target:
+common.h:
+#  Implicit rule search has not been done.
+#  Modification time never c 
+hecked.
+#  File has not been updated.
+
+# Not a target:
+Node.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Log.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-11-24 13:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+MP2Node.o: MP2Node.cpp MP2Node.h EmulNet.h Params.h Member.h Trace.h Node.h HashTable.h Log.h Params.h Message. 
+h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 44):
+	g++ -c MP2Node.cpp ${CFLAGS}
+	
+
+EmulNet.o: EmulNet.cpp EmulNet.h Params.h Member.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 26):
+	g++ -c EmulNet.cpp ${CFLAGS}
+	
+
+# Not a target:
+Node.cpp:
+#  Implicit rule search has not been done.
+#  M 
+odification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Log.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Queue.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-11-24 13:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Trace.o: Trace.cpp Trace.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 41):
+	g++ -c Trace.cpp ${CFLAGS}
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 59):
+	rm -rf *.o Application dbg.log msgcount.log stats.log machine.log
+	
+
+Mess 
+age.o: Message.cpp Message.h Member.h common.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 56):
+	g++ -c Message.cpp ${CFLAGS}
+	
+
+# Not a target:
+Entry.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Params.o: Params.cpp Params.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated 
+.
+#  commands to execute (from `makefile', line 35):
+	g++ -c Params.cpp ${CFLAGS}
+	
+
+# Not a target:
+MP1Node.h:
+#  Implicit rule search has been done.
+#  Last modified 2020-11-24 13:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+Application: MP1Node.o EmulNet.o Application.o Log.o Params.o Member.o Trace.o MP2Node.o Node.o HashTable.o Entry.o Message.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  
+ File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/3=0%
+#  commands to execute (from `makefile', line 15):
+	g++ -o Application MP1Node.o EmulNet.o Application.o Log.o Params.o Member.o Trace.o MP2Node.o Node.o HashTable.o Entry.o Message.o ${CFLAGS}
+	
+
+Application.o: Application.cpp Application.h Member.h Log.h Params.h Member.h EmulNet.h Queue.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#   
+File has not been updated.
+#  commands to execute (from `makefile', line 29):
+	g++ -c Application.cpp ${CFLAGS}
+	
+
+# Not a target:
+Entry.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+MP1Node.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2020-11-24 13:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Member.h:
+ 
+#  Implicit rule search has been done.
+#  Last modified 2020-11-24 13:23:31
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+HashTable.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Member.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Node.o: Node.cpp Node.h Member 
+.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 47):
+	g++ -c Node.cpp ${CFLAGS}
+	
+
+Log.o: Log.cpp Log.h Params.h Member.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 32):
+	g++ -c Log.cpp ${CFLAGS}
+	
+
+# Not a target:
+HashTable.cpp:
+#  Implicit rule search has not been done.
+#  Modification t 
+ime never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=45/1024=4%, Rehash=0, Collisions=3/136=2%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Jul 20 19:59:20 2022
+
+ 
